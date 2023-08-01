@@ -1,7 +1,4 @@
 let opcion = document.querySelector('select');
-let saludo = "hola";
-
-console.log(document.body);
 
 opcion.addEventListener('change', e => {
     if(document.querySelector('p') == null) {
